@@ -20,6 +20,7 @@
 		58D4DBD02A4987E100957495 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D4DBCF2A4987E100957495 /* LandmarkRow.swift */; };
 		58D4DBD22A498C5200957495 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D4DBD12A498C5200957495 /* LandmarkList.swift */; };
 		58D4DBD42A49986200957495 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D4DBD32A49986200957495 /* LandmarkDetail.swift */; };
+		58D4DBD72A4AE8E000957495 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D4DBD62A4AE8E000957495 /* FavoriteButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		58D4DBCF2A4987E100957495 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		58D4DBD12A498C5200957495 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		58D4DBD32A49986200957495 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
+		58D4DBD62A4AE8E000957495 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 		589DB2452A3F0B780007D849 /* FirstSwiftProject */ = {
 			isa = PBXGroup;
 			children = (
+				58D4DBD52A4AE8B700957495 /* Helpers */,
 				58D4DBCE2A4986AA00957495 /* Resources */,
 				58D4DBCD2A49867600957495 /* Model */,
 				589DB2462A3F0B780007D849 /* FirstSwiftProjectApp.swift */,
@@ -116,6 +119,14 @@
 				58D4DBC62A497FF200957495 /* landmarkData.json */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		58D4DBD52A4AE8B700957495 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				58D4DBD62A4AE8E000957495 /* FavoriteButton.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +204,7 @@
 				589DB2492A3F0B780007D849 /* ContentView.swift in Sources */,
 				58D4DBC52A49787300957495 /* MapView.swift in Sources */,
 				589DB2472A3F0B780007D849 /* FirstSwiftProjectApp.swift in Sources */,
+				58D4DBD72A4AE8E000957495 /* FavoriteButton.swift in Sources */,
 				58D4DBD22A498C5200957495 /* LandmarkList.swift in Sources */,
 				58D4DBD42A49986200957495 /* LandmarkDetail.swift in Sources */,
 				58D4DBC12A4974DD00957495 /* CircleImage.swift in Sources */,
